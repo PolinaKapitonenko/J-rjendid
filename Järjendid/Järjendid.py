@@ -27,6 +27,16 @@ while True:
         a=input("Введи букву, которую хочешь удалить")
         slovo_list.remove(a)
         print(slovo_list)
+    elif valik==4:
+        a=input("Введи букву, которую хочешь удалить: ")
+        n=slovo_list.count(a)
+    if n>0:
+        for i in range(n):
+            slovo_list.remove(a)
+    else:
+         print("Искомой буквы нет")
+         print(slovo_list) 
 
-c=2**3
-print(c)
+#1
+
+
