@@ -37,6 +37,5 @@ while True:
          print("Искомой буквы нет")
          print(slovo_list) 
 
-#1
 
 
