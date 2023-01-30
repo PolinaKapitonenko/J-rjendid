@@ -1,4 +1,5 @@
-﻿spisok=[] #пустой список
+﻿
+spisok=[] #пустой список
 numbers=[1,2,3,4,5]
 abc=["Abc","B","C"]
 slovo="Programmerimine"
@@ -26,3 +27,6 @@ while True:
         a=input("Введи букву, которую хочешь удалить")
         slovo_list.remove(a)
         print(slovo_list)
+
+c=2**3
+print(c)
